@@ -1,0 +1,58 @@
+p
+{
+color:red;
+font-size:22pt;
+}
+p#gruby_grotha
+{
+color:green;
+font-size:17pt;
+font-weight: bold;
+}
+#dlawszystkich_grotha
+{
+color:black;
+font-size:10pt;
+font-family: Arial
+}
+
+
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+	<title>Zadanie 21</title>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+					 <style>
+							@import url("zadanie22_grot.css");
+					</style>
+	</head>
+		<body>
+	 <P> (Grotha) ASCII (American Standard Code for Information Interchange) – <br>
+			7-bitowy kod liczbowy przyporządkowujący liczbom<br>
+			z zakresu 0-127 określone znaki: litery, cyfry, znaki przestankowe,<br>
+			polecenia sterujące oraz inne symbole</P><br>
+	 
+	 
+	 
+	 
+	 <P id="gruby_grotha"> (Grotha) Aplikacje dedykowane – to oprogramowanie na zamówienie <br>
+			przygotowane specjalnie dla potrzeb konkretnego<br>
+			zastosowania. Pozwalają na ścisłe dostosowanie wszystkich<br>
+			funkcji do prowadzonej działalności.</P><br>
+	
+
+
+	<h1 id="dlawszystkich_grotha">  (Grotha) FTP Skrót od File Transfer Protocol – metoda wymiany<br>
+			plików z jednego komputera na drugi. Jest to również<br>
+			sposób, w jaki strony internetowe są ładowane do Internetu.</h1><br>
+			
+			
+			
+	 <div id="dlawszystkich_grotha"> (Grotha) Framework – gotowy szkielet, który umożliwia szybsze stworzenie<br>
+			aplikacji, poprzez rozbudowywanie jej i dostosowywanie do wymagań <br>
+			klienta. Framework nie jest biblioteką! 
+			</div><br>
+
+		</body>
+</html>
+<!-- Szymon Grotha -->

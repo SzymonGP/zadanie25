@@ -1,0 +1,24 @@
+p
+{
+	color:#008080;
+	font-size:71pt;
+}
+/*Grotha Szymon, klasa 1P grupa 2 data 07.12.2022*/  
+
+
+<!DOCTYPE html>
+          <html lang="pl-PL">
+          <html>
+               <head>
+                    <meta charset="utf-8">
+                    <title> Szymon Grotha kl 1P grupa 2 </title>
+					 <style>
+							@import url("grot_z5_1.css");
+					</style>
+               </head>
+                <body>
+							<p>Grotha</p>
+							<p><i> Podkreślony tekst </i></p>
+							<!-- Grotha Szymon, klasa 1P grupa 2 data 07.12.2022 -->
+              </body>
+</html>

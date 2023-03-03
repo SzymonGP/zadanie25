@@ -1,0 +1,46 @@
+
+p#pogrubienie
+{
+color:#9261cb;
+font-size:31px;
+font-weight: bold;
+}
+
+p#pochylenie
+{
+color:#F6C567;
+font-size:36pt;
+font-style: italic;
+}
+
+p#index_gorny_grot
+{
+color:#A69317 ;
+font-size: 1.1cm;
+vertical-align: super;
+
+}
+p#index_dolny_grot
+{
+color:#42F7DF;
+font-size:1.1cm;
+vertical-align: sub;
+}
+p#dowcip4_grot
+{
+color:#26E367;
+font-size:36px;
+
+}
+p#powiekszenie_grot
+{
+color:#604399;
+font-size: larger;
+
+}
+p#pomniejszenie_grot
+{
+color:#C4A735;
+font-size: smaller;
+
+}

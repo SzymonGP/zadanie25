@@ -1,0 +1,28 @@
+body 
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 30pt;
+color: #0000FF;
+}
+
+p
+{
+font-size: 20pt;
+color: #008000;
+}
+<html>
+<head>
+<title>zadanie 6</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK href="grot_z6.css" rel="stylesheet" type="text/CSS">
+</head>
+ <body>
+	<p> :O - zdziwiona mina</p>
+		:D - uśmiechnięta mina
+	<p> :C - smutna mina</p>		
+		:P - wytknięty język
+	<p> :V - mówiąca mina</p>
+		:"{ - płacząca mina
+
+ </body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+			<meta charset="utf-8">
+			<style>
+			li
+			{
+			font-family: Arial;
+			}
+			</style>
+	</head>
+		<body>
+<h1> Temat:Właściwości czcionek-teoria.
+</h1>
+
+	
+	<ol type=1>
+		<h1>  <li> Jakie standardowo dostępne są czcionki w systemie Windows?</h1> </li>
+	<ul type=square>
+		<li>Times New Roman (szeryfowa) </li>
+			<li>Arial (bezszeryfowa) </li>
+				<li>Courier New (monotypiczna) </li>
+	</UL>
+		
+		<h1>  <li> Jakich czcionek dodatkowo dostarcza Internet Explorerem.</h1> </li>
+	<ul type=circle>
+		<li>Verdana</li>
+		<li>Tahoma</li>
+		<li>Trebuchet MS</li>
+		<li>Georgia</li>
+	</UL>
+	
+			<h1>  <li> Wymień rodziny ogólne.</h1> </li>
+	<ul>
+	<i>	<li>serif - czcionka szeryfowa</li>
+		<li>sans-serif - czcionka bezszeryfowa</li>
+		<li>monospace - czcionka o stałej szerokości znaków - monotypiczna</li>
+		<li>cursive - czcionka mająca pewne cechy pochyłej </li>
+		<li>fantasy - czcionka fantazyjna</li></i>
+	</UL>
+	
+			<h1>  <li> Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy.</h1> </li>
+	<ul type=square>
+	<li> Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie<br>
+będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost.</li>
+		<li>body <br>
+		  {<br>
+		 font-family: Arial, Helvetica, Verdana,<b> sans-serif</b>;<br>
+		  }</li>
+	</UL>
+
+			<h1>  <li>Rodzaje wyrównanie tekstu .</h1> </li>
+	<ul type=square>
+		<li>"left" - wyrównanie tekstu do lewego marginesu (domyślnie)</li>
+		<li>"right" - wyrównanie tekstu do prawego marginesu</li>
+		<li>"center" - wyśrodkowanie</li>
+		<li>"justify" - wyrównanie do obu marginesów jednocześnie (justowanie)</li>
+	</UL>
+
+				<h1>  <li> Kolor tekstu.</h1> </li>
+	<ul type=square>
+		<li>Dzięki temu poleceniu można ustalić dowolny kolor tekstu.</li>
+		<li>Składnia reguły: <br>
+		selektor {color: kolor;}</li>
+	</UL>
+				<h1>  <li> dekoracja tekstu.</h1> </li>
+	<ol type=a>
+		<li>Podkreślić - (underline)<br>
+		 selektor<br><br>
+		 {<br>
+		 text-decoration: underline;<br>
+		 }<br><br>
+</li>
+			<li> Przekreślić - (line-through)<br>
+
+
+		
+		 selektor<br><br>
+		 {<br>
+		 text-decoration: line-through;<br>
+		 }</li><br>
+				<li>Nadkreślić - (overline)
+				<br>
+		 selektor<br><br>
+		 {<br>
+		 text-decoration: overline;<br>
+		 }</li><br>
+					<li> Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)<br>
+					
+		 selektor<br><br>
+		 {<br>
+		 text-decoration: blink;<br>
+		 }</li><br>
+	</OL>
+				<h1>  <li> Warianty czcionek.</h1> </li>
+	<ul type=square>
+		<li>normal - czcionka normalna (podstawowa)</li>
+		<li>small-caps - kapitaliki</li>
+
+	</UL>
+				<h1>  <li> Pogrubienie czcionek.</h1> </li>
+	<ul type=square>
+		<li>normal - czcionka normalna</li>
+		<li>bold - czcionka pogrubiona</li>
+		<li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800,<br>
+900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo<br>
+wytłuszczonej jak dla poprzedniej wartości w sekwencji</li>
+
+	</UL>
+				<h1>  <li>Rozmiar czcionek.</h1> </li>
+	<ul type=square>
+		<li>xx-small - najmniejsza</li>
+			<li>x-small - mniejsza</li>
+				<li>small - mała</li>
+					<li>medium - średnia</li>
+						<li>large - duża</li>
+							<li>x-large - większa</li>
+								<li>xx-large - największa</li>
+	</UL>
+				<h1>  <li> Transformacja tekstu.</h1> </li>
+	<ul type=square>
+		<li>Składnia reguły:<br><br>
+ selektor<br> {<br>text-transform: transformacja;<br>}</li>
+		<li>"none" - bez zmian</li>
+		<li>"capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie</li>
+		<li>"uppercase" - zamiana wszystkich liter na wielkie</li>
+		<li>"lowercase" - zamiana wszystkich liter na małe</li>
+
+	</UL>
+					<h1>  <li> Wcięcie tekstu .</h1> </li>
+	<ul type=square>
+		<li>Składnia reguły:<br><br>
+ selektor<br> {<br>text-indent: wcięcie;<br>}
+</li><br>
+		<li>piksele - px</li>
+		<li>punkty edytorskie - pt</li>
+		<li>wysokość litery "x" - ex</li>
+		<li>wysokość aktualnej czcionki - em</li>
+		<li>centymetry lub milimetry - cm, mm</li>
+		<li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+		<li>cale - in (1in=2.54cm)</li>
+		<li>procent wielkości nadrzędnej - %</li>
+	</UL>
+					<h1>  <li> Odstęp miedzy wierszami.</h1> </li>
+	<ul type=square>
+		<li>Składnia reguły:<br><br>
+ selektor<br> {<br>line-height: odstęp;<br>}
+</li><br>
+		<li>piksele - px</li>
+		<li>punkty edytorskie - pt</li>
+		<li>wysokość litery "x" - ex</li>
+		<li>wysokość aktualnej czcionki - em</li>
+		<li>centymetry lub milimetry - cm, mm</li>
+		<li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+		<li>cale - in (1in=2.54cm)</li>
+		<li>procent wielkości nadrzędnej - %</li>
+<li>"normal" - przywraca wartość domyślną</li>
+	</UL>
+					<h1>  <li>Odstęp między wyrazami.</h1> </li>
+	<ul type=square>
+		<li>Składnia reguły:<br><br>
+ selektor <br>{<br>word-spacing: odstęp;<br>}<br>
+</li><br>
+		<li>piksele - px</li>
+		<li>punkty edytorskie - pt</li>
+		<li>wysokość litery "x" - ex</li>
+		<li>wysokość aktualnej czcionki - em</li>
+		<li>centymetry lub milimetry - cm, mm</li>
+		<li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+		<li>cale - in (1in=2.54cm)</li>
+<li>"normal" - przywraca wartość domyślną</li>
+	</UL>
+					<h1>  <li> Odstęp między literami.</h1> </li>
+	<ul type=square>
+		<li>Składnia reguły:<br><br>
+ selektor<br> {<br>letter-spacing: odstęp;<br>}</li><br>
+ 		<li>piksele - px</li>
+		<li>punkty edytorskie - pt</li>
+		<li>wysokość litery "x" - ex</li>
+		<li>wysokość aktualnej czcionki - em</li>
+		<li>centymetry lub milimetry - cm, mm</li>
+		<li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</li>
+		<li>cale - in (1in=2.54cm)</li>
+<li>"normal" - przywraca wartość domyślną</li>
+	</UL>
+					<h1>  <li> Łączenie właściwości czcionek i tekstu.</h1> </li>
+	<ul type=square>
+		<li>Składnia reguły:<br><br>
+ selektor<br> {<br>font: wartości atrybutów;<br>}</li><br>
+		<li>Jako wartości atrybutów wpisać należy zgodnie z podaną poniżej kolejnością, oddzielając<br>
+spacjami, konkretne wartości, które opisują poszczególne atrybuty czcionek i tekstu.<br>
+Można niektóre pominąć.</li>
+		<li>wartości atrybutów:</li><br>
+		<li> font-style</li>
+		<li> font-variant
+</li>
+		<li> font-weight
+</li>
+		<li> font-size
+</li>
+		<li> line-height
+</li>
+		<li> font-family<br><br>
+</li>
+		<li>Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące czcionek i<br>
+tekstu. Pomiędzy font-size, a line-height należy wstawić ukośnik (bezpośrednio przed<br>
+line-height).</li>
+	
+	</UL>
+		<ol></font>
+
+	</body>
+	</html>
+		
+		
+
+		
+		
+		

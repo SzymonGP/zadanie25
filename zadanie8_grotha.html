@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+			<meta charset="utf-8">
+	</head>
+		<body>
+<h1> Temat: Wewnętrzny arkusz stylów:
+</h1>
+
+	
+	<ol type=1>
+		<h1>  <li> Gdzie jest wstawiany wewnętrzny arkusz stylów? </h1> </li>
+        <font face="arial"> Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami < head> a < /head>.
+ Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,
+występują <br>wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty.
+		</font>
+				<h1>  <li> Składnia teoretyczna </h1> </li>
+	<font face="arial">
+	
+	</font>
+<table border=1>
+<td>
+< head>
+	&nbsp;&nbsp;&nbsp;	(...) <br>
+ < style type="text/css"><br>
+ /* < ![CDATA[ */<br>
+   &nbsp;&nbsp;&nbsp;     selektor1 { cecha: wartość; cecha2: wartość2... }<br>
+  &nbsp;&nbsp;&nbsp;      selektor2 { cecha: wartość; cecha2: wartość2... }<br>
+   &nbsp;&nbsp;&nbsp;     (...)<br>
+ /* ]]> */<br>
+ </ style><br>
+    &nbsp;&nbsp;&nbsp;    (...)<br>
+</ head>
+
+</td>
+</table>
+		
+		
+		
+			<h1>  <li>  Co może być selektorem? </h1> </li>
+		
+		<font face="arial">Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td (komórka tabeli) i inne.
+		</font>
+		
+		
+		
+		
+		
+			<h1>  <li> Co wpisujemy jako "cechę". Jakie jest znaczenie średników? </h1> </li>
+		
+		<font face="arial"> Jako cechę wpisujemy konkretnie atrybuty formatowania o jakie nam chodzi (np. kolor tekstu - color).<br> 
+		Jednemu selektorowi możemy nadać kilka atrybutów dlatego, aby je rozdzielić używamy średników.
+		</font>
+		
+		<h1>  <li>  Co wipisujemy jako "wartość" (w deklaracji stylu). </h1> </li>
+		
+		<font face="arial">Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla koloru tekstu 
+							będzie to: red, blue czy też #31F4A5 itd.).
+		</font>
+	</body>
+	</html>
+		
+		
+		
+		
+		
+		
